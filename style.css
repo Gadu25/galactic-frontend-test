@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #153240;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent-box {
+    position: relative;
+    margin: 20px;
+}
+
+.parent-box a {
+    float: right;
+    color:#44C7CF
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    border: .8px solid #44C7CF;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #0E202A;
+}
+.form .fa{
+    padding: 10px;
+}
+.form .fa-lock{
+    color: #F8FFFF;
+    margin-right: 8px;
+}
+
+.form .fa-eye-slash{
+    margin-left: 8px;
+    cursor: pointer;
+    color: #B1BAC1;
+}
+
+.form .fa-eye-slash:hover{
+    color: #44C7CF;
+}
+
+.form input{
+    border: none;
+    padding: 10px 0 10px 0;
+    font-size: 15px;
+    flex: auto;
+    color: #F8FFFF;
+    background-color: #0E202A;
+}
+
+input:focus{
+    outline-width: 0;
+}
